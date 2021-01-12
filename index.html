@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div id="div1">
+      <img
+        class="centene-logo"
+        src="images/Centene logo.png"
+        alt="centene-logo"
+      />
+      <div id="clockbox"></div>
+
+      <script type="text/javascript">
+        var tday = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ];
+        var tmonth = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+
+        function GetClock() {
+          var d = new Date();
+          var nday = d.getDay(),
+            nmonth = d.getMonth(),
+            ndate = d.getDate(),
+            nyear = d.getFullYear();
+          var nhour = d.getHours(),
+            nmin = d.getMinutes(),
+            ap;
+          if (nhour == 0) {
+            ap = " AM";
+            nhour = 12;
+          } else if (nhour < 12) {
+            ap = " AM";
+          } else if (nhour == 12) {
+            ap = " PM";
+          } else if (nhour > 12) {
+            ap = " PM";
+            nhour -= 12;
+          }
+
+          if (nmin <= 9) nmin = "0" + nmin;
+
+          var clocktext =
+            "" +
+            tday[nday] +
+            ", " +
+            tmonth[nmonth] +
+            " " +
+            ndate +
+            ", " +
+            nyear +
+            " " +
+            nhour +
+            ":" +
+            nmin +
+            ap +
+            "";
+          document.getElementById("clockbox").innerHTML = clocktext;
+        }
+
+        GetClock();
+        setInterval(GetClock, 1000);
+      </script>
+    </div>
+    <div id="div2">
+      <a href="source.html" class="source-btn"
+        ><img id="source-icon" src="images/source-icon.png" alt="source-icon"
+      /></a>
+      <p class="source-text">
+        Press this button to display your PC or another available source on the
+        video wall.
+      </p>
+      <a href="cable-tv.html" class="cable-btn"
+        ><img id="cable-icon" src="images/cable-icon.png" alt="cable-icon"
+      /></a>
+      <p class="cable-text">
+        Press this button to control the Cable TV receivers.
+      </p>
+      <a href="usb.html" class="usb-btn"
+        ><img id="usb-icon" src="images/usb-icon.png" alt="usb-icon"
+      /></a>
+      <p class="usb-text">Press this button to route USB.</p>
+      <a href="settings.html" class="settings-btn"
+        ><img id="gear-icon" src="images/gear-icon.png" alt="gear-icon"
+      /></a>
+      <p class="settings-text">Press this button to access display settings.</p>
+      <a href="#" class="power-btn"
+        ><img id="power-icon" src="images/power-icon.png" alt="power-icon"
+      /></a>
+      <p class="power-text">Press this button to turn the system off.</p>
+    </div>
+    <div id="div3"></div>
+  </body>
+</html>

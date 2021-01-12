@@ -1,0 +1,287 @@
+body {
+  background-color: grey;
+}
+
+#div1 {
+  background-color: rgb(233, 233, 232);
+  margin: auto 25px;
+}
+
+#div2 {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  height: 700px;
+  margin: 15px 25px;
+}
+
+#div3 {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  height: 140px;
+  margin: 15px 25px;
+}
+
+#clockbox {
+  position: absolute;
+  right: 65px;
+  top: 20px;
+}
+
+.centene-logo {
+  width: 25rem;
+  padding: 0 15px;
+}
+
+.source-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 25px 32px 10px;
+  background-color: #e9e9e8;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #e9e9e8 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 18px;
+}
+
+.source-btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#source-icon {
+  width: 50px;
+  height: 50px;
+  margin: -13px 0 0 0;
+}
+
+.source-text {
+  position: absolute;
+  left: 190px;
+  top: 168px;
+  width: 52%;
+}
+
+.cable-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 27px 32px;
+  background-color: #e9e9e8;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #e9e9e8 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 260px;
+  height: 23px;
+}
+
+.cable-btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#cable-icon {
+  width: 50px;
+  height: 50px;
+  margin: -13px 0 0 0;
+}
+
+.cable-text {
+  position: absolute;
+  left: 190px;
+  top: 274px;
+  width: 52%;
+}
+
+.usb-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 27px 32px;
+  background-color: #e9e9e8;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #e9e9e8 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 370px;
+  height: 23px;
+}
+
+.usb-btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#usb-icon {
+  width: 50px;
+  height: 50px;
+  margin: -13px 0 0 0;
+}
+
+.usb-text {
+  position: absolute;
+  left: 190px;
+  top: 385px;
+  width: 52%;
+}
+
+.settings-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 27px 30px;
+  background-color: #e9e9e8;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #e9e9e8 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 480px;
+  height: 23px;
+}
+
+.settings-btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#gear-icon {
+  width: 50px;
+  height: 50px;
+  margin: -13px 0 0 0;
+}
+
+.settings-text {
+  position: absolute;
+  left: 190px;
+  top: 495px;
+  width: 52%;
+}
+
+.power-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 27px 29px;
+  background-color: #e9e9e8;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #e9e9e8 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 590px;
+  height: 23px;
+}
+
+.power-btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#power-icon {
+  width: 50px;
+  height: 50px;
+  margin: -13px 0 0 0;
+}
+
+.power-text {
+  position: absolute;
+  left: 190px;
+  top: 605px;
+  width: 52%;
+}
