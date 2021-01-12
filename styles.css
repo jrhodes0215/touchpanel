@@ -2,6 +2,11 @@ body {
   background-color: grey;
 }
 
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
 #div1 {
   background-color: rgb(233, 233, 232);
   margin: auto 25px;
@@ -32,6 +37,20 @@ body {
   padding: 0 15px;
 }
 
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
 .source-btn {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -53,20 +72,6 @@ body {
   position: relative;
   top: 10px;
   left: 18px;
-}
-
-.source-btn:hover {
-  border: solid #337fed 1px;
-  background: #1e62d0;
-  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
 }
 
 #source-icon {
@@ -106,20 +111,6 @@ body {
   height: 23px;
 }
 
-.cable-btn:hover {
-  border: solid #337fed 1px;
-  background: #1e62d0;
-  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-}
-
 #cable-icon {
   width: 50px;
   height: 50px;
@@ -155,20 +146,6 @@ body {
   left: 50px;
   top: 370px;
   height: 23px;
-}
-
-.usb-btn:hover {
-  border: solid #337fed 1px;
-  background: #1e62d0;
-  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
 }
 
 #usb-icon {
@@ -208,20 +185,6 @@ body {
   height: 23px;
 }
 
-.settings-btn:hover {
-  border: solid #337fed 1px;
-  background: #1e62d0;
-  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
-}
-
 #gear-icon {
   width: 50px;
   height: 50px;
@@ -257,20 +220,6 @@ body {
   left: 50px;
   top: 590px;
   height: 23px;
-}
-
-.power-btn:hover {
-  border: solid #337fed 1px;
-  background: #1e62d0;
-  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
-  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
 }
 
 #power-icon {
